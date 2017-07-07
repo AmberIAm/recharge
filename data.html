@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>数据发送页面</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="css/css.css">
+</head>
+<body>
+
+	<!-- 主要内容开始 -->
+	<div class="container">
+		<form>
+			<fieldset>
+				<div class="card-num">
+					<label class="phone-text" for="phone">充值：</label>
+					<input type="text" id="phone" name="phone" placeholder="请输入手机号码！" maxlength="11" data-options="required:true">
+				</div>
+				<div class="card-price">
+					<div class="price-text">选择价格(元)：</div>
+					<input type="radio" name="price" value="10" checked="checked">10
+					<input type="radio" name="price" value="20">20
+					<input type="radio" name="price" value="50">50
+				</div>
+				<input id="msg" class="card-send" type="button" value="发送短信">
+			</fieldset>
+		</form>
+	</div>
+	<!-- 主要内容结束 -->
+
+<!--[if lt IE 9]>
+　　<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+<script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/jquery.easyui.min.js"></script>
+<script src="js/js.js"></script>
+</body>
+</html>

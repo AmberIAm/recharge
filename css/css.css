@@ -1,0 +1,53 @@
+body {
+　　font: normal 100% "黑体", Arial, sans-serif;
+}
+.container {
+    text-align: center;
+}
+.container fieldset {
+    padding: 50px;
+    border: solid 2px #ccc;
+}
+.card-num,
+.card-price {
+    height: 35px;
+    line-height: 35px;
+}
+.card-num input {
+    height: 28px;
+    line-height: 28px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: solid 1px #ccc;
+}
+.phone-text,
+.price-text {
+    font-weight: bold;
+}
+.price-text {
+    display: inline-block;
+}
+.card-send {
+    border: none;
+    border-radius: 5px;
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+    color: #fff;
+    background-color: #33acfb;
+    margin-top: 5px;
+}
+.card-send:hover {
+    background-color: #3682fb;
+}
+@media screen and (max-device-width: 320px) {
+    .card-num {
+        margin-bottom: 50px;
+    }
+    .card-price {
+        margin-bottom: 40px;
+    }
+    .price-text {
+        display: block;
+    }
+}
